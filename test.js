@@ -9,7 +9,7 @@
                   document.getElementById('pu').innerHTML = "";
                   var i = document.getElementById("text").value
                   var xhr = new XMLHttpRequest();
-                  xhr.open("GET", "http://192.168.56.104/cgi-bin/test.py?x=" + i, false)
+                  xhr.open("GET", "http://43.204.27.97/cgi-bin/test.py?x=" + i, false)
                   xhr.send();
                   var output = xhr.responseText;
                   document.getElementById("pu").innerHTML = output;
